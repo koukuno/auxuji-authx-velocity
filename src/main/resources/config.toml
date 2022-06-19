@@ -1,0 +1,11 @@
+# auxuji-authx plugin config
+[config]
+version = 1
+
+[offline]
+# Allow offline players to join? (default: false)
+allow = false
+
+[files]
+# Auth file for offline players (entries must be generated through console, default: offline-auth.json)
+offlineAuth = "offline-auth.json"
